@@ -1,2 +1,7 @@
-# toman-bike-share-dashboard
-Power BI dashboard analyzing revenue, profit trends, seasonality, and membership patterns for Toman Bike Share.
+# Toman Bike Share – Power BI Dashboard
+
+README under construction.  
+Full documentation coming soon.
+---------------------------------------------------------
+
+
