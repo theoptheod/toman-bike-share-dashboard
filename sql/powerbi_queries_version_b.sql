@@ -1,10 +1,10 @@
--- Output the data stored in 'cost_table' .
+-- Output the data stored in 'cost_table'.
 SELECT
     *
 FROM "cost_table";
 
--- Using UNION ALL (to show duplicates) we output
--- the combined data of the two bike_share tables. 
+-- Using UNION ALL we output the combined data
+-- from the two bike_share tables. 
 SELECT
     *
 FROM "bike_share_yr_0"
@@ -13,37 +13,39 @@ SELECT
     *
 FROM "bike_share_yr_1";
 
--- Create a cte with the same output.
-WITH "cte_bike_shares" AS(
-    SELECT
-        *
+-- Create a CTE with the same output.
+WITH "cte_bike_shares" AS (
+	SELECT
+    	*
     FROM "bike_share_yr_0"
     UNION ALL
     SELECT
         *
-    FROM "bike_share_yr_1")
-
+    FROM "bike_share_yr_1"
+)
 SELECT
     *
 FROM "cte_bike_shares";
 
--- Using the above cte, we join
--- the three tables of the database
--- and the query for the columns we will use.
+-- Using the CTE above, we join the three source tables
+-- and select the fields required for the Power BI model.
 
--- We also use the data of the table to calculate
--- revenue and profits for the two years of the company's operation.
--- Also we output two new columns, 'iso_weekday' and 'season_calendar'
--- that fix the weekday and season issues of the data discussed in the project's README file.
-WITH "cte_bike_shares" AS(
+-- We calculate two new metrics, revenue and profit
+-- for the company's two years of operation.
+
+-- We also generate two additional columns, 'iso_weekday' and 'season_calendar',
+-- which address the data considerations of the weekday and season columns,
+-- described in the project's README.
+
+WITH "cte_bike_shares" AS (
     SELECT
         *
     FROM "bike_share_yr_0"
     UNION ALL
     SELECT
         *
-    FROM "bike_share_yr_1")
-
+    FROM "bike_share_yr_1"
+)
 SELECT
     "cte_bike_shares"."dteday",
 	"cte_bike_shares"."season",
@@ -65,4 +67,4 @@ SELECT
 	END AS "season_calendar"
 FROM "cte_bike_shares"
 LEFT JOIN "cost_table"
-    ON "cte_bike_shares"."yr" = "cost_table"."yr";
+	ON "cte_bike_shares"."yr" = "cost_table"."yr";
