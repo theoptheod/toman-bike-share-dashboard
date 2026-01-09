@@ -37,7 +37,7 @@ CREATE TABLE "transitional_bike_share_yr_1"(
 	"riders" TEXT
 );
 
--- Creat the 'cost_table' table.
+-- Create the 'cost_table' table.
 CREATE TABLE "cost_table"(
     "id_cost_table" SERIAL PRIMARY KEY,
 	"yr" SMALLINT,
@@ -166,4 +166,5 @@ DROP TABLE "transitional_bike_share_yr_1";
 -- Check the final tables.
 SELECT * FROM "bike_share_yr_0";
 SELECT * FROM "bike_share_yr_1";
+
 SELECT * FROM "cost_table";
