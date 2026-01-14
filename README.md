@@ -282,7 +282,7 @@ with consistent styling and interactive elements that support intuitive analysis
 
 ## Dashboard Preview
 A screenshot of the dashboard:
-![Dashboard](images/screenshots/screeenshot_dashboard_version_b_sheet1.png)
+![Dashboard](images/screenshots/screenshot_dashboard_version_b_sheet1.png)
 
 ## How to Use the Dashboard
 - Download the `.pbix` file from the /powerbi folder
@@ -315,7 +315,7 @@ A safeguard to ensure price increases remain justified.
 
 ## Recommendations Preview
 A screenshot of the analysis and recommendations:
-![Recommendations](images/screenshots/screeenshot_dashboard_version_b_sheet2.png)
+![Recommendations](images/screenshots/screenshot_dashboard_version_b_sheet2.png)
 
 ## Contact
 If you have questions or would like to connect, feel free to reach out through the links below:
@@ -335,3 +335,4 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 ## License
 
 This project is released under the MIT License. See the LICENSE file for details.
+
