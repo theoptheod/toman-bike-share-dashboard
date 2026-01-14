@@ -18,7 +18,7 @@ Completed – Version 1.0
 The analysis was guided by a project brief sent by the Toman Bike Share company, outlining the key business questions to be addressed.
 
 A screenshot of the company's email:
-![Company's Email](images/thoman_bike_email_requests.png)
+![Company's Email](images/screenshots/thoman_bike_email_requests.png)
 
 Based on that brief, the main objectives of the project were to:
 - Analyze hourly and daily revenue patterns
@@ -206,7 +206,7 @@ END AS "season_calendar"
 The following diagram illustrates the final relational schema used in PostgreSQL after cleaning, casting, and applying surrogate keys.
 This schema served as the source for the exported dataset used in Power BI.
 
-![Database Schema](images/database_diagram_version_b.png)
+![Database Schema](images/screenshots/database_diagram_version_b.png)
 
 ## Exported Data Structure
 The final analytical dataset was exported from PostgreSQL after all cleaning, transformations, and derived metric calculations were applied.
@@ -282,7 +282,7 @@ with consistent styling and interactive elements that support intuitive analysis
 
 ## Dashboard Preview
 A screenshot of the dashboard:
-![Dashboard](images/screeenshot_dashboard_version_b_sheet1.png)
+![Dashboard](images/screenshots/screeenshot_dashboard_version_b_sheet1.png)
 
 ## How to Use the Dashboard
 - Download the `.pbix` file from the /powerbi folder
@@ -315,7 +315,7 @@ A safeguard to ensure price increases remain justified.
 
 ## Recommendations Preview
 A screenshot of the analysis and recommendations:
-![Recommendations](images/screeenshot_dashboard_version_b_sheet2.png)
+![Recommendations](images/screenshots/screeenshot_dashboard_version_b_sheet2.png)
 
 ## Contact
 If you have questions or would like to connect, feel free to reach out through the links below:
@@ -333,4 +333,5 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 - Designed a custom dashboard layout and visual set
 
 ## License
+
 This project is released under the MIT License. See the LICENSE file for details.
