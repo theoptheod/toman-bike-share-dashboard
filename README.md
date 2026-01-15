@@ -8,7 +8,8 @@ Theofilos P. Theodoridis
 
 ## Project Description
 This project presents an interactive Power BI dashboard built for Toman Bike Share.  
-The dashboard highlights key insights into the company’s financial performance, seasonal demand patterns, and customer membership behavior.  
+The dashboard highlights key insights into the company’s financial performance,  
+seasonal demand patterns, and customer membership behavior.  
 It also includes an exploratory price elasticity analysis that evaluates the feasibility of a price increase and proposes a data‑driven adjustment strategy.
 
 ## Project Status
@@ -133,7 +134,7 @@ This allows controlled casting, validation, and error handling.
 2. Final tables are then populated from these transitional tables, applying the appropriate data types and transformations.
 
 ### Data Quality Issues & Cleaning Decisions
-During data exploration, several inconsistencies were identified in the original dataset.
+During data exploration, several inconsistencies were identified in the original dataset.  
 Before applying corrective transformations, general data quality checks were performed:
 - Verified no duplicates or missing values
 - Ensured consistent formatting and correct data types during import
@@ -336,5 +337,6 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
 
 
