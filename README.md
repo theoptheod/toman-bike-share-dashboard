@@ -173,7 +173,7 @@ Two fields were generated directly in SQL to enrich the final dataset before exp
 These derived metrics (`revenue` and `profit`) combine rider counts with pricing information from the `cost_table` table,  
 allowing key financial insights to be presented through the Power BI analysis and dashboard.
 
-Full scripts are available in the /sql folder.
+Full scripts are available in the `/sql` folder.
 ```
 -- Snippet for revenue.
 ...
@@ -188,7 +188,7 @@ Full scripts are available in the /sql folder.
 #### SQL Transformations
 The following SQL scripts were used to correct weekday encoding and generate the new meteorological season field.
 
-Full scripts are available in the /sql folder.
+Full scripts are available in the `/sql` folder.
 ```
 -- Snippet for day-of-week fix.
 ...
@@ -336,3 +336,4 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
