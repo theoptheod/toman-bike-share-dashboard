@@ -54,10 +54,10 @@ The diagram below highlights the repository layout, making it easier to understa
 ## Data Sources
 The original CSV files were provided by the tutorial instructor as part of the learning material.
 
-Location in this repository:
-data/original/
+Location in this repository:  
+`data/original/`
 
-Original external source:
+Original external source:  
 [Raw CSVs (source files)](https://github.com/Gaelim/YT_bike_share)
 
 ## Original Data Dictionary and Samples
@@ -129,9 +129,7 @@ The final schema created, uses surrogate primary keys for clarity and maintainab
  
 To ensure safe and consistent data import:
 
-1. Raw CSVs are first loaded into transitional tables, where all columns are stored as TEXT.
-This allows controlled casting, validation, and error handling.
-
+1. Raw CSVs are first loaded into transitional tables, where all columns are stored as TEXT, allowing for controlled casting, validation, and error handling.
 2. Final tables are then populated from these transitional tables, applying the appropriate data types and transformations.
 
 ### Data Quality Issues & Cleaning Decisions
@@ -161,7 +159,7 @@ The original `season` column was based on astronomical definitions:
 - Fall begins around 22 September
 - Winter begins around 21 December
 
-While technically correct, these boundaries do not align with typical business or meteorological seasons and produced inconsistent seasonal groupings.
+While technically correct, these boundaries do not align with typical business seasons and produced inconsistent seasonal groupings.
 The `season_calendar` field was created using meteorological seasons:
 - Winter: December–February
 - Spring: March–May
@@ -172,7 +170,7 @@ This provides a more intuitive seasonal segmentation.
 
 #### Derived Metrics
 Two fields were generated directly in SQL to enrich the final dataset before export.  
-These derived metrics (`revenue` and `profit`) combine rider counts with pricing information from the `cost_table` table ,
+These derived metrics (`revenue` and `profit`) combine rider counts with pricing information from the `cost_table` table,  
 allowing key financial insights to be presented through the Power BI analysis and dashboard.
 
 Full scripts are available in the /sql folder.
@@ -227,8 +225,8 @@ This dataset serves as the single source used in the Power BI dashboard.
 ## Processed Files
 This is the CSV file exported from the PostgreSQL database after cleaning and transformation.
 
-Location in this repository:
-data/processed/
+Location in this repository:  
+`data/processed/`
 
 ## Key Features & Insights
 This section summarizes the primary analytical findings derived from the dashboard,  
@@ -242,15 +240,15 @@ Dashboard Element: Daily Revenue Table
 - Reveals demand concentration during specific hours, facilitating targeted service adjustments.
 
 ### 2. Profit & Revenue Analysis
-Dashboard Elements: Riders Over Time (Vertical Bar Chart) and Average of Profit and Revenue Over Time (Line Chart)
+Dashboard Elements: Riders Over Time (Vertical Bar Chart) & Average of Profit and Revenue Over Time (Line Chart)
 - Provide month‑over‑month and year‑over‑year comparisons of rider volume, revenue, and profit.
 - Highlight long‑term growth patterns, including seasonal surges and year‑to‑year improvements.
-- Show that revenue and profit increase steadily during warmer months, with a pronounced peak in summer 2022—indicating strong seasonal effects.
+- Show that revenue and profit increase steadily during warmer months, with a pronounced peak in the summer of 2022.
 
 ### 3. Seasonal Revenue Patterns
 Dashboard Element: Sum of Revenue by Season (Horizontal Bar Chart)
 - Aggregates total revenue by season, clearly identifying high‑demand periods.
-- Confirms that summer generates the highest revenue, reinforcing the importance of seasonal marketing and resource planning.
+- Confirms that the highest revenue is generated during the summer months, reinforcing the importance of seasonal marketing and resource planning.
 - Supports strategic decisions related to pricing, promotions, and inventory allocation during peak seasons.
 
 ### 4. Membership Status
@@ -267,13 +265,13 @@ Price Elasticity Analysis
 Elasticity (PED): 2.59
 Demand is highly elastic, even after a 25% price increase.
 
-Key Metrics
-COGS ↑ 25.8%
-Price increased from €3.99 → €4.99 (+25%).
-Customer base increased by 65%.
-Profit more than doubled with no drop in demand.
+Key Metrics:
+- COGS ↑ 25.8%
+- Price increased from €3.99 → €4.99 (+25%).
+- Customer base increased by 65%.
+- Profit more than doubled with no drop in demand.
 
-Interpretation
+Interpretation:
 Customers remained highly responsive despite the price increase.
 Demand grew faster than price, showing strong pricing power.
 A further price increase is unlikely to significantly reduce customer volume.
@@ -338,7 +336,3 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
-
-
-
-
