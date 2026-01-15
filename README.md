@@ -121,9 +121,9 @@ A PostgreSQL database was created, and transactional tables were populated using
 
 ### Primary key design and import workflow  
 The final schema created, uses surrogate primary keys for clarity and maintainability:  
-- `bike_share_yr_0_id` was created in the `bike_share_yr_0` table
-- `bike_share_yr_1_id` was createdin the `bike_share_yr_1` table
-- `cost_table_id` was created in the `cost_table` table
+- `bike_share_yr_0_id` was created for the `bike_share_yr_0` table
+- `bike_share_yr_1_id` was created for the `bike_share_yr_1` table
+- `cost_table_id` was created for the `cost_table` table
  
 To ensure safe and consistent data import:
 
@@ -336,4 +336,5 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
 
