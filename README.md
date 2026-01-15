@@ -8,8 +8,9 @@ Theofilos P. Theodoridis
 
 ## Project Description
 This project presents an interactive Power BI dashboard built for Toman Bike Share.  
-The dashboard highlights key insights into the company’s financial performance,  
-seasonal demand patterns, and customer membership behavior.  
+
+The dashboard highlights key insights into the company’s financial performance, seasonal demand patterns, and customer membership behavior.
+
 It also includes an exploratory price elasticity analysis that evaluates the feasibility of a price increase and proposes a data‑driven adjustment strategy.
 
 ## Project Status
@@ -337,6 +338,7 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
 
 
 
