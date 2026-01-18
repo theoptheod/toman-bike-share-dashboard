@@ -134,6 +134,12 @@ To ensure safe and consistent data import:
 1. Raw CSVs are first loaded into transitional tables, where all columns are stored as TEXT, allowing for controlled casting, validation, and error handling.
 2. Final tables are then populated from these transitional tables, applying the appropriate data types and transformations.
 
+### Database Schema
+The following diagram illustrates the final relational schema used in PostgreSQL after cleaning, casting, and applying surrogate keys.
+This schema served as the source for the exported dataset used in Power BI.
+
+![Database Schema](images/screenshots/database_diagram_version_b.png)
+
 ### Data Quality Issues & Cleaning Decisions
 During data exploration, several inconsistencies were identified in the original dataset.  
 Before applying corrective transformations, general data quality checks were performed:
@@ -207,12 +213,6 @@ CASE
 END AS "season_calendar"
 ...
 ```
-
-### Database Schema
-The following diagram illustrates the final relational schema used in PostgreSQL after cleaning, casting, and applying surrogate keys.
-This schema served as the source for the exported dataset used in Power BI.
-
-![Database Schema](images/screenshots/database_diagram_version_b.png)
 
 ## Exported Data Structure
 The final analytical dataset was exported from PostgreSQL after all cleaning, transformations, and derived metric calculations were applied.
@@ -338,4 +338,5 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
 
