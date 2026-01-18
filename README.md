@@ -43,11 +43,13 @@ The diagram below highlights the repository layout, making it easier to understa
 ├── data/                # All CSV files used in the project
 │   ├── original/        # Raw source files provided by the tutorial
 │   └── processed/       # Cleaned and enriched files exported from PostgreSQL
-├── sql/                 # SQL scripts
-├── images/              # Schema diagrams and dashboard screenshots for the README
+├── images/              # Project images
+│   ├── icons/           # Icons used in the dashboard
+│   └── screenshots/     # Schema diagrams and dashboard screenshots for the README
 ├── powerbi/             # Power BI project files
-├── LICENSE
+├── sql/                 # SQL scripts
 ├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -302,11 +304,11 @@ Market‑driven approach that leverages strong elasticity.
 Steps:
 - Step 1: Increase price by 5%.
 - Step 2: Monitor for 4–8 weeks, tracking:
-         * Units sold
-         * Customer complaints
-         * Repeat purchase rate
-         * Social media sentiment
-         * Competitor pricing
+  - Units sold
+  - Customer complaints
+  - Repeat purchase rate
+  - Social media sentiment
+  - Competitor pricing
 - Step 3: If demand remains stable, increase an additional 5–10%.
 
 #### Secondary Guideline: Cost‑Aligned Adjustments
@@ -336,3 +338,4 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
