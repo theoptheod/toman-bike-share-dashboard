@@ -276,7 +276,7 @@ Key Metrics:
 
 Interpretation:
 Customers remained highly responsive despite the price increase.  
-Demand grew faster than price, showing strong pricing power.
+Demand grew faster than price, showing strong pricing power.  
 A further price increase is unlikely to significantly reduce customer volume.
 
 ## Dashboard Design
@@ -339,6 +339,7 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
 
 
 
