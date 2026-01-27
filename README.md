@@ -135,7 +135,7 @@ To ensure safe and consistent data import:
 2. Final tables are then populated from these transitional tables, applying the appropriate data types and transformations.
 
 ### Database Schema
-The following diagram illustrates the final relational schema used in PostgreSQL after casting, and applying surrogate keys.
+The following diagram illustrates the final relational schema used in PostgreSQL after casting, and applying surrogate keys.  
 This schema served as the source for the exported dataset used in Power BI.
 
 ![Database Schema](images/screenshots/database_diagram_version_b.png)
@@ -339,6 +339,7 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
 
 
 
