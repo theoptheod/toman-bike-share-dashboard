@@ -167,7 +167,7 @@ The original `season` column was based on astronomical definitions:
 - Fall begins around 22 September
 - Winter begins around 21 December
 
-While technically correct, these boundaries do not align with typical business seasons and produced inconsistent seasonal groupings.
+While technically correct, these boundaries do not align with typical business seasons and produced inconsistent seasonal groupings.  
 The `season_calendar` field was created using meteorological seasons:
 - Winter: December–February
 - Spring: March–May
@@ -215,7 +215,8 @@ END AS "season_calendar"
 ```
 
 ## Exported Data Structure
-The final analytical dataset was exported from PostgreSQL after all cleaning, transformations, and derived metric calculations were applied.
+The final analytical dataset was exported from PostgreSQL after all  
+cleaning, transformations, and derived metric calculations were applied.
 This exported CSV contains:
 - combined records from both bike‑share tables
 - pricing and cost information from cost_table
@@ -338,6 +339,7 @@ While the tutorial provided valuable guidance, my implementation diverges in sev
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
 
 
 
