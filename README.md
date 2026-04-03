@@ -285,7 +285,7 @@ A further price increase is unlikely to significantly reduce customer volume.
 
 ## Dashboard Design
 The dashboard layout was designed for clarity and ease of exploration,  
-with consistent styling and interactive elements that support intuitive analysis.
+with consistent styling and interactive elements that support intuitive analysis.  
 It features:  
 - Clean, intuitive layout for easy navigation
 - Interactive slicers for flexible exploration
