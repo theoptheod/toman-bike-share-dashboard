@@ -133,8 +133,10 @@ The final schema created, uses surrogate primary keys for clarity and maintainab
  
 To ensure safe and consistent data import:
 
-1. Raw CSVs are first loaded into transitional tables, where all columns are stored as TEXT, allowing for controlled casting, validation, and error handling.
-2. Final tables are then populated from these transitional tables, applying the appropriate data types and transformations.
+1. Raw CSVs are first loaded into transitional tables, where all columns are stored as TEXT,  
+   allowing for controlled casting, validation, and error handling.
+3. Final tables are then populated from these transitional tables,  
+   applying the appropriate data types and transformations.
 
 ### Database Schema
 The following diagram illustrates the final relational schema used in PostgreSQL after casting, and applying surrogate keys.  
