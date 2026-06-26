@@ -6,6 +6,9 @@ Toman Bike Share – Power BI Dashboard
 ## Project Author
 Theofilos P. Theodoridis
 
+## Project Status
+Completed – Version 1.0
+
 ## Project Description
 This project presents an interactive Power BI dashboard built for Toman Bike Share.  
 
@@ -14,9 +17,6 @@ seasonal demand patterns, and customer membership behavior.
 
 It also includes an exploratory price elasticity analysis that evaluates  
 the feasibility of a price increase and proposes a data‑driven adjustment strategy.
-
-## Project Status
-Completed – Version 1.0
 
 ## Objectives
 The analysis was guided by a project brief sent by the Toman Bike Share company, outlining the key business questions to be addressed.
