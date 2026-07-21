@@ -214,8 +214,7 @@ END AS "season_calendar"
 ```
 
 ## Exported Data Structure
-The final analytical dataset was exported from PostgreSQL after all  
-cleaning, transformations, and derived metric calculations were applied.
+The final analytical dataset was exported from PostgreSQL after all cleaning, transformations, and derived metric calculations were applied.  
 This exported CSV contains:
 - combined records from both bike‑share tables
 - pricing and cost information from cost_table
