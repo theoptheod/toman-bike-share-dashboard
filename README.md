@@ -30,11 +30,11 @@ Based on that brief, the main objectives of the project were to:
 
 ## Tools & Technologies
 A combination of database, analytics, and visualization tools was used to build this project:  
-- PostgreSQL + pgAdmin — database design, schema management, and data processing
-- SQL — data cleaning, transformation, and metric creation
-- Power BI Desktop — dashboard development and interactive visualizations
-- Power Query — data shaping and model preparation inside Power BI
-- DAX — calculated measures and analytical expressions used in the dashboard
+- PostgreSQL + pgAdmin - database design, schema management, and data processing
+- SQL - data cleaning, transformation, and metric creation
+- Power BI Desktop - dashboard development and interactive visualizations
+- Power Query - data shaping and model preparation inside Power BI
+- DAX - calculated measures and analytical expressions used in the dashboard
 
 ## Repository Structure
 The diagram below highlights the repository layout, making it easier to understand and navigate the project.
@@ -130,7 +130,6 @@ The final schema created, uses surrogate primary keys for clarity and maintainab
 - `cost_table_id` was created for the `cost_table` table
  
 To ensure safe and consistent data import:
-
 1. Raw CSVs are first loaded into transitional tables, where all columns are stored as TEXT, allowing for controlled casting, validation, and error handling.
 2. Final tables are then populated from these transitional tables, applying the appropriate data types and transformations.
 
