@@ -12,11 +12,9 @@ Completed – Version 1.0
 ## Project Description
 This project presents an interactive Power BI dashboard built for Toman Bike Share.  
 
-The dashboard highlights key insights into the company’s financial performance,  
-seasonal demand patterns, and customer membership behavior.
+The dashboard highlights key insights into the company’s financial performance, seasonal demand patterns, and customer membership behavior.
 
-It also includes an exploratory price elasticity analysis that evaluates  
-the feasibility of a price increase and proposes a data‑driven adjustment strategy.
+It also includes an exploratory price elasticity analysis that evaluates the feasibility of a price increase and proposes a data‑driven adjustment strategy.
 
 ## Objectives
 The analysis was guided by a project brief sent by the Toman Bike Share company, outlining the key business questions to be addressed.
@@ -133,10 +131,8 @@ The final schema created, uses surrogate primary keys for clarity and maintainab
  
 To ensure safe and consistent data import:
 
-1. Raw CSVs are first loaded into transitional tables, where all columns are stored as TEXT,  
-   allowing for controlled casting, validation, and error handling.
-3. Final tables are then populated from these transitional tables,  
-   applying the appropriate data types and transformations.
+1. Raw CSVs are first loaded into transitional tables, where all columns are stored as TEXT, allowing for controlled casting, validation, and error handling.
+2. Final tables are then populated from these transitional tables, applying the appropriate data types and transformations.
 
 ### Database Schema
 The following diagram illustrates the final relational schema used in PostgreSQL after casting, and applying surrogate keys.  
