@@ -230,8 +230,7 @@ Location in this repository:
 `data/processed/`
 
 ## Key Features & Insights
-This section summarizes the primary analytical findings derived from the dashboard,  
-highlighting the patterns, behaviors, and business implications revealed through the data.  
+This section summarizes the primary analytical findings derived from the dashboard, highlighting the patterns, behaviors, and business implications revealed through the data.  
 Each insight corresponds to a dedicated section within the dashboard.
 
 ### 1. Hourly Revenue Trends
@@ -278,8 +277,7 @@ Demand grew faster than price, showing strong pricing power.
 A further price increase is unlikely to significantly reduce customer volume.
 
 ## Dashboard Design
-The dashboard layout was designed for clarity and ease of exploration,  
-with consistent styling and interactive elements that support intuitive analysis.  
+The dashboard layout was designed for clarity and ease of exploration, with consistent styling and interactive elements that support intuitive analysis.  
 It features:  
 - Clean, intuitive layout for easy navigation
 - Interactive slicers for flexible exploration
