@@ -1,13 +1,13 @@
 # Project Overview
 
 ## Project Title
-Toman Bike Share – Power BI Dashboard
+Toman Bike Share - Power BI Dashboard
 
 ## Project Author
 Theofilos P. Theodoridis
 
 ## Project Status
-Completed – Version 1.0
+Completed - Version 1.0
 
 ## Project Description
 This project presents an interactive Power BI dashboard built for Toman Bike Share.  
